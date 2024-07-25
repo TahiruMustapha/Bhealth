@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="firstContent">
+        <h2>JavaScript and the DOM</h2>
+        <p>Making a web page interactive</p>
+      </div>
+
+      <div class="hideList">
+        <button id="hideList">Hide list</button>
+      </div>
+      <div class="myTodoList" id="myTodoList">
+        <p>My Todo List:</p>
+        <div class="todoInput">
+          <input type="text" id="editTask" />
+          <button id="editBtn">Change list description</button>
+        </div>
+        <div class="task">
+          <ul class="taskes" id="taskes"></ul>
+        </div>
+        <div class="bottomActions">
+          <input type="text" placeholder="Write task" id="input" />
+          <button onclick="addTask()" id="addItem">Add item</button>
+          <button>Remove last item</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
