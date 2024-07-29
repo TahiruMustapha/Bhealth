@@ -21,7 +21,7 @@
         <p>My Todo List:</p>
         <div class="todoInput">
           <input type="text" id="editTask" />
-          <button id="editBtn">Change list description</button>
+          <button id="editBtn" onclick="updateTodo()">Change list description</button>
         </div>
         <div class="task">
           <ul class="taskes" id="taskes"></ul>
@@ -29,7 +29,7 @@
         <div class="bottomActions">
           <input type="text" placeholder="Write task" id="input" />
           <button onclick="addTask()" id="addItem">Add item</button>
-          <button>Remove last item</button>
+        
         </div>
       </div>
     </div>
